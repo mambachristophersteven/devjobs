@@ -1,0 +1,47 @@
+.container{
+    border: 2px solid red;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.navbar{
+    background-image: url(/nav.png);
+    width: 100%;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 170px 0px 200px;
+}
+
+.toggler{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.toggle{
+    width: 50px;
+    height: 25px;
+    background: white;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    gap: 2px;
+}
+
+.light{
+    width: 20px;
+    height: 20px;
+    background: var(--primary-color);
+    border-radius: 50%;
+}
+.dark{
+    width: 20px;
+    height: 20px;
+    background: var(--primary-color);
+    border-radius: 50%;
+}
